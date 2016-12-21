@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             mIntervalCtr++;
             mTimerDisplayTextView.setText(
                     String.format("%02d", mTotalTimeCtr / 60) + ":"
-                    + String.format("%02d", mTotalTimeCtr % 60));
+                            + String.format("%02d", mTotalTimeCtr % 60));
             mTotalTimeCtr++;
             if (mTotalTimeCtr <= mTotalTime) {
                 mHandler.postDelayed(this, 1000);

@@ -79,5 +79,5 @@
         android:textSize="32sp"
         android:layout_alignStart="@+id/totalTimeTextView"
         android:layout_alignEnd="@+id/intervalEditText"/>
+    </RelativeLayout>
 
-</RelativeLayout>
